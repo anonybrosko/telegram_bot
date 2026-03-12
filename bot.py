@@ -1,5 +1,5 @@
 from telebot import TeleBot
-from telebot.types import ReplyKeyboardMarkup InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
+from telebot.types import ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 
 import os
 
