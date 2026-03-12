@@ -33,7 +33,7 @@ def support(msg):
         InlineKeyboardButton(
             text="Buy me a coffee ☕",
             url=SUPPORT_COFFEE
-        )
+        ),
         InlineKeyboardButton(
             text="PayPal 💰",
             url=SUPPORT_PAYPAL
