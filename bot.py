@@ -1,6 +1,10 @@
 from telebot import TeleBot
 <<<<<<< HEAD
+<<<<<<< HEAD
 from telebot.types import ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
+=======
+from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
+>>>>>>> b744999 (Persistent Inline Not Working So Removed It)
 =======
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 >>>>>>> b744999 (Persistent Inline Not Working So Removed It)
