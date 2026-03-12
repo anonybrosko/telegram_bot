@@ -12,7 +12,7 @@ def start(msg):
     keyboard.add(
         InlineKeyboardButton(
             text="Go to Mine 🪙",
-            web_app=WebAppInfo(url="https://afc-coin-miner.netlify.app/")
+            web_app=WebAppInfo(url="https://afc-coin-miner-backend.onrender.com")
         )
     )
     bot.send_message(msg.chat.id, "Welcome! Click below to mine:", reply_markup=keyboard)
