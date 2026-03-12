@@ -1,7 +1,10 @@
 from telebot import TeleBot
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 
-bot = TeleBot("8580606853:AAGj6lRIQ5AAxkVkDafDKfi4aoZ7DyH-Xqc")
+import os
+
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+bot = TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start(msg):
