@@ -1,18 +1,14 @@
 from telebot import TeleBot
+<<<<<<< HEAD
 from telebot.types import ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
+=======
+from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
+>>>>>>> b744999 (Persistent Inline Not Working So Removed It)
 
 import os
 
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 bot = TeleBot(TOKEN)
-
-keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
-keyboard.add(
-    KeyboardButton("/mine"),
-    KeyboardButton("/support")
-)
-
-bot.send_message(chat_id, "Choose an option:", reply_markup=keyboard)
 
 SUPPORT_COFFEE = os.environ.get("SUPPORT_COFFEE")
 SUPPORT_PAYPAL = os.environ.get("SUPPORT_PAYPAL")
